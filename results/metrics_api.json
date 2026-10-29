@@ -1,0 +1,79 @@
+{
+  "config": {
+    "backend": "api",
+    "model": "deepseek-flash",
+    "temperature": 0.7,
+    "min_interval": 0.4,
+    "max_rollback": 3,
+    "n_tasks": 24,
+    "n_runs": 1
+  },
+  "metrics": {
+    "A_single_track": [
+      {
+        "n_tasks": 24,
+        "VER": 0.0,
+        "task_completion_rate": 1.0,
+        "avg_rollbacks": 0.0,
+        "epsilon_phi": 0.0,
+        "a_b_intercept_rate": 0.0,
+        "rollback_save_rate": 0.0,
+        "std": {
+          "n_tasks": 0.0,
+          "VER": 0.0,
+          "task_completion_rate": 0.0,
+          "avg_rollbacks": 0.0,
+          "epsilon_phi": 0.0,
+          "a_b_intercept_rate": 0.0,
+          "rollback_save_rate": 0.0
+        },
+        "n_runs": 1,
+        "drift": null
+      }
+    ],
+    "B_single_track_A_B": [
+      {
+        "n_tasks": 24,
+        "VER": 0.0,
+        "task_completion_rate": 1.0,
+        "avg_rollbacks": 0.0,
+        "epsilon_phi": 0.0,
+        "a_b_intercept_rate": 0.0,
+        "rollback_save_rate": 0.0,
+        "std": {
+          "n_tasks": 0.0,
+          "VER": 0.0,
+          "task_completion_rate": 0.0,
+          "avg_rollbacks": 0.0,
+          "epsilon_phi": 0.0,
+          "a_b_intercept_rate": 0.0,
+          "rollback_save_rate": 0.0
+        },
+        "n_runs": 1,
+        "drift": null
+      }
+    ],
+    "C_dual_track_satisfiability": [
+      {
+        "n_tasks": 24,
+        "VER": 0.0,
+        "task_completion_rate": 1.0,
+        "avg_rollbacks": 0.0,
+        "epsilon_phi": 0.0,
+        "a_b_intercept_rate": 0.0,
+        "rollback_save_rate": 0.0,
+        "std": {
+          "n_tasks": 0.0,
+          "VER": 0.0,
+          "task_completion_rate": 0.0,
+          "avg_rollbacks": 0.0,
+          "epsilon_phi": 0.0,
+          "a_b_intercept_rate": 0.0,
+          "rollback_save_rate": 0.0
+        },
+        "n_runs": 1,
+        "drift": null
+      }
+    ]
+  }
+}
